@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="principal" layoutX="172.0" layoutY="1.0" prefHeight="358.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ma.enset.demo.controllers.WebsitePdf_to_audioBook_Controller">
+
+    <center>
+        <VBox alignment="TOP_CENTER" prefHeight="300.0" prefWidth="600.0" spacing="15.0">
+            <children>
+                <TextField fx:id="webPath" maxHeight="32.0" maxWidth="400.0" text="Pdf link" />
+                <TextField fx:id="audioBookName" maxHeight="32.0" maxWidth="400.0" text="AudioBook Name" />
+                <Button fx:id="audioBookImage" maxHeight="32.0" maxWidth="400.0" mnemonicParsing="false" onAction="#openFileChooser" prefHeight="32.0" prefWidth="400.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-radius: 15;" text="Select AudioBook Image" textFill="WHITE" />
+                <Button fx:id="StartButton" maxHeight="32.0" mnemonicParsing="false" onAction="#startConverting" prefHeight="32.0" prefWidth="400.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-radius: 15;" text="Start" textFill="WHITE" />
+            </children>
+            <BorderPane.margin>
+                <Insets left="30.0" top="30.0" />
+            </BorderPane.margin>
+        </VBox>
+    </center>
+    <top>
+        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Website Pdf to AudioBook" wrappingWidth="292.44073486328125" BorderPane.alignment="TOP_LEFT">
+            <BorderPane.margin>
+                <Insets left="30.0" top="30.0" />
+            </BorderPane.margin>
+            <font>
+                <Font name="Microsoft JhengHei UI Bold" size="18.0" />
+            </font>
+        </Text>
+    </top>
+    <padding>
+        <Insets bottom="30.0" />
+    </padding>
+</BorderPane>

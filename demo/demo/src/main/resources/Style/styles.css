@@ -1,0 +1,38 @@
+.page-label {
+    -fx-text-fill: white;
+    -fx-font-size: 10pt;
+}
+
+
+.page-button {
+    -fx-background-color: #f8f5fa;
+    -fx-text-fill: black;
+    -fx-pref-width: 250;
+    -fx-alignment: baseline-left;
+
+}
+.page-button1 {
+    -fx-background-color: #f8f5fa;
+    -fx-text-fill: black;
+    -fx-pref-width: 250;
+    -fx-alignment: baseline-left;
+
+}
+
+.page-button:hover {
+    -fx-background-color: #2980b9;
+}
+.scroll-pane {
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0, 0, 0;
+    -fx-effect: innershadow(gaussian, rgba(255, 255, 255, 0.8), 10, 0, 0, 0);
+}
+
+.scroll-pane .viewport {
+    -fx-background: transparent;
+}
+
+.scroll-pane .content {
+    -fx-background: transparent;
+}

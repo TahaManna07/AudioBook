@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<BorderPane fx:id="principal" layoutX="0" layoutY="0" prefHeight="401.0" prefWidth="664.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ma.enset.demo.SampleController" stylesheets="/Style/button.css" >
+
+
+        <center>
+            <VBox alignment="TOP_CENTER" prefHeight="213.0" prefWidth="216.0" spacing="15.0" BorderPane.alignment="CENTER">
+                <BorderPane.margin>
+                    <Insets top="30.0" />
+                </BorderPane.margin>
+                <Button fx:id="SelectPaper" mnemonicParsing="false" onAction="#selectPaper" prefHeight="32.0" prefWidth="381.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-radius: 15;" text="  Select research paper" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../assets/papier.png" />
+                            </image>
+                        </ImageView>
+                    </graphic></Button>
+                <Button fx:id="SelectPdf" mnemonicParsing="false" onAction="#selectPdf" prefHeight="32.0" prefWidth="381.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-radius: 15;" text="  SelectPDF" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../assets/format-de-fichier-pdf.png" />
+                            </image>
+                        </ImageView>
+                    </graphic></Button>
+                <Button fx:id="SelectWeb" mnemonicParsing="false" onAction="#selectWeb" prefHeight="32.0" prefWidth="381.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-radius: 15;" text="  Select website" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../assets/navigateur.png" />
+                            </image>
+                            <effect>
+                                <Glow level="0.62" />
+                            </effect>
+                        </ImageView>
+                    </graphic></Button>
+                <Button fx:id="copyText" mnemonicParsing="false" onAction="#copyText" prefHeight="32.0" prefWidth="381.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-radius: 15;" text="  Copy text" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../assets/fichier-texte.png" />
+                            </image>
+                        </ImageView>
+                    </graphic></Button>
+
+            </VBox>
+        </center>
+    <top>
+        <Label fx:id="label" alignment="CENTER" prefHeight="43.0" prefWidth="381.0" text="Convert Your Document To Audio Book" textOverrun="CLIP" BorderPane.alignment="TOP_LEFT" textFill="white">
+            <font>
+                <Font size="20.0" />
+            </font>
+            <effect>
+                <Glow level="0.23" />
+            </effect>
+            <BorderPane.margin>
+                <Insets left="30.0" top="30.0" />
+            </BorderPane.margin>
+        </Label>
+    </top>
+
+    </BorderPane>
+
+
+
+
+
+

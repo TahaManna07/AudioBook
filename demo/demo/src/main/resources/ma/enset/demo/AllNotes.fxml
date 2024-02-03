@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.effect.DropShadow?>
+<AnchorPane prefHeight="400.0" prefWidth="630.0"
+            xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ma.enset.demo.controllers.AllNotes_Controller"
+            style="-fx-background-color: #f0f0f0;">
+
+    <children>
+
+        <HBox alignment="CENTER" layoutX="15.0" layoutY="20.0" spacing="10.0">
+
+            <!-- Icône de livre -->
+            <ImageView>
+                <image>
+
+                </image>
+            </ImageView>
+
+            <!-- Libellé affichant le nom du livre -->
+            <Label fx:id="bookName"
+                   prefHeight="30.0" prefWidth="300.0" text="Book Name"
+                   style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #333333;" />
+
+        </HBox>
+
+        <ScrollPane fitToHeight="true" fitToWidth="true"
+                    hbarPolicy="ALWAYS" layoutX="15.0" layoutY="60.0"
+                    maxHeight="200.0" maxWidth="600.0" minHeight="160.0"
+                    minWidth="589.0" prefHeight="160.0" prefWidth="589.0"
+                    vbarPolicy="NEVER" style="-fx-background-color: #ffffff; -fx-border-color: #dddddd; -fx-border-width: 1px;">
+
+            <content>
+
+                <!-- Ajouter une animation de fade-in pour les notes -->
+                <HBox fx:id="notes" maxHeight="200.0" maxWidth="578.0"
+                      minHeight="160.0" minWidth="570.0" prefHeight="160.0"
+                      prefWidth="578.0" spacing="15.0">
+
+                    <!-- Ajouter une ombre douce aux notes -->
+                    <effect>
+                        <DropShadow color="#aaaaaa" radius="5.0" spread="0.5" />
+                    </effect>
+
+                    <padding>
+                        <Insets left="15.0" right="15.0" top="10.0" bottom="10.0" />
+                    </padding>
+
+                    <!-- Ajouter ici d'autres éléments sophistiqués si nécessaire -->
+
+                </HBox>
+
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>
