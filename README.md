@@ -72,14 +72,7 @@ Pour exécuter l'application sur votre machine, suivez les étapes suivantes :
 7. **Fenêtre de gestion des fichiers audio**
    ![Gestion des fichiers](./screenshots/audio-file-management.png)
 
-## 🛠️ Contribution
 
-Les contributions sont les bienvenues ! Si vous avez des suggestions ou souhaitez améliorer l'application, n'hésitez pas à créer une **issue** ou une **pull request**.
 
-## 📄 Licence
 
-Ce projet est sous licence [MIT](LICENSE).
-
----
-
-Développé avec ❤️ par [Mann Taha Souhail](https://github.com/username)
+Développé avec ❤️ par [Manna Taha Souhail](https://github.com/username)) et [Boudri Meryem]([https://github.com/username](https://github.com/Meryem-Boudri)))
