@@ -28,7 +28,7 @@ Pour exécuter l'application sur votre machine, suivez les étapes suivantes :
 
 1. Clonez ce dépôt :
     ```bash
-    git clone https://github.com/username/audiobook-application.git
+    git clone https://github.com/TahaManna07/AudioBook
     ```
 2. Accédez au répertoire du projet :
     ```bash
@@ -40,7 +40,7 @@ Pour exécuter l'application sur votre machine, suivez les étapes suivantes :
     ```
 4. Exécutez l'application :
     ```bash
-    java -jar target/audiobook-application.jar
+    java -jar target/AudiBook.jar
     ```
 
 ## 🎯 Utilisation
