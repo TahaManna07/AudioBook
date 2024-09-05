@@ -51,28 +51,16 @@ Pour exécuter l'application sur votre machine, suivez les étapes suivantes :
 
 ## 📸 Captures d'écran
 
-1. **Page d'accueil**
-   ![Page d'accueil](./screenshots/homepage.png)
 
-2. **Sélection du fichier texte**
-   ![Sélection du fichier](./screenshots/select-file.png)
 
-3. **Lecture en cours**
-   ![Lecture en cours](./screenshots/reading.png)
-
-4. **Pause et navigation**
-   ![Pause et navigation](./screenshots/pause.png)
-
-5. **Configuration de la voix**
-   ![Configuration de la voix](./screenshots/voice-config.png)
-
-6. **Synthèse vocale améliorée avec MBROLA**
-   ![MBROLA](./screenshots/mbrola-voice.png)
-
-7. **Fenêtre de gestion des fichiers audio**
-   ![Gestion des fichiers](./screenshots/audio-file-management.png)
+![Extraction du texte ](https://github.com/user-attachments/assets/070d66fe-74cb-466d-9d2a-1d07377873d0)
+![Conversion à partie d'un site web](https://github.com/user-attachments/assets/02c380f8-6197-4ea9-b12c-02bbdfeab7bb)
+![Page du conversion](https://github.com/user-attachments/assets/7402670b-a39a-4bba-a035-dc49ee6db062)
+![Menu](https://github.com/user-attachments/assets/00a4546e-f55a-433a-a6b9-0ca9da7a92bd)
+![La une](https://github.com/user-attachments/assets/79978bcc-573b-4739-bd56-59898dd21e47)
+![La librairie](https://github.com/user-attachments/assets/9837251b-1fef-4595-bf6b-adf5847c9414)
+![La lecture du PDF](https://github.com/user-attachments/assets/8ae6c695-f08a-42a2-a9fb-fea50dbe1447)
 
 
 
-
-Développé avec ❤️ par [Manna Taha Souhail](https://github.com/username)) et [Boudri Meryem]([https://github.com/username](https://github.com/Meryem-Boudri)))
+Développé avec ❤️ par [Manna Taha Souhail](https://github.com/username) et [Boudri Meryem](https://github.com/Meryem-Boudri) .
