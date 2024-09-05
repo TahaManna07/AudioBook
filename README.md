@@ -63,4 +63,4 @@ Pour exécuter l'application sur votre machine, suivez les étapes suivantes :
 
 
 
-Développé avec ❤️ par [Manna Taha Souhail](https://github.com/username) et [Boudri Meryem](https://github.com/Meryem-Boudri) .
+Développé avec ❤️ par [Manna Taha Souhail](https://github.com/TahaManna07) et [Boudri Meryem](https://github.com/Meryem-Boudri) .
